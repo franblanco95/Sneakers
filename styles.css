@@ -164,7 +164,6 @@ i {
     font-size: 15px;
     text-transform: uppercase;
     border: none;
-
 }
 
 .btn:hover {
@@ -204,3 +203,15 @@ i {
     transform: scale(1.1);
     transition: 1s;
 }
+
+@media screen and (max-width: 900px) {
+    p, body, span{
+        text-align: center;
+    }
+
+    .menu, .insta, .container3{
+        flex-direction: column;
+    }
+}
+
+;
